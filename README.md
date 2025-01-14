@@ -1,39 +1,9 @@
 # vue-qrcode-reader
 
-This template should help get you started developing with Vue 3 in Vite.
+A set of Vue.js components for detecting QR codes and various other barcode formats right in the browser:
 
-## Recommended IDE Setup
+* 🎥 `QrcodeStream` continuously scans frames from a camera stream.
+* 🚮 `QrcodeDropZone` is an empty region where you can drag-and-drop images to be decoded.
+* 📂 `QrcodeCapture` is a classic file upload field, instantly scanning all files you select.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+This project is forked from [gruhn/vue-qrcode-reader](https://github.com/gruhn/vue-qrcode-reader),which I modified in my own style and solved the problem of not being able to select photo files on the mobile side
